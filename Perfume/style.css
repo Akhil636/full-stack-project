@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,ul,li{
+    display: inline;
+}
+div{
+    background-color: black;
+    color: white;
+    height: 10px;
+}
+ul{
+    margin-left: 900px;
+}
+li{
+    color: gray;
+}
+li:hover{
+    color: white;
+}
+input{
+    padding: 20px;
+    margin-top: 50px;
+    width: 60%;
+    margin-left: 15%;
+}
+.box
+{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline;
+    width: 220px;
+    padding: 20px;
+}
