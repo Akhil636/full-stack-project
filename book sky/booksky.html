@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Booksky</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="booksky.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <script src="booksky.js" async defer></script>
+    <div id="nav">
+        <h1 class="book">Booksky</h1>
+    </div>
+    <div class="form-container">
+    </div>
+    <div id="book-container">
+            <div id="two">
+        <h2 class="top">Rich Dad Poor Dad</h2>
+        <h3>Robert</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis adipisci expedit</p>
+        <button type="button" class="del" onclick="dele()">Delete</button>
+    </div>
+    </div>
+
+
+
+    <div class="popup-form">
+        <h2>Add Book</h2>
+        <input id="book-title-input" type="text" placeholder="Book Title">
+        <hr>
+        <input id="book-author-input" type="text" placeholder="Book Author">
+        <hr>
+        <textarea rows="4" cols="52" id="discription" placeholder="Short Discription..."></textarea>
+        <br>
+        <button type="button" id="add">Add</button>
+        <button class="cancel" type="button" onclick="can()">Cancel</button>
+    </div>
+    <div class="plus">
+        <button class="ok" type="button" onclick="pop()">+</button>
+    </div>
+</body>
+
+</html>
